@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Wall -g -o c $CFILE
+export CFILE=main.c; ./preprocessor
